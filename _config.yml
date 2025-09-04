@@ -11,6 +11,7 @@ plugins:
   - jekyll-feed       # RSS for your blog
   - jekyll-seo-tag    # SEO/meta tags
   - jekyll-sitemap    # sitemap.xml
+  - jekyll-paginate   # Paginate for the blog
 
 # Navigation (used in header)
 nav:
