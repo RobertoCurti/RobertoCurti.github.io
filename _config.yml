@@ -1,0 +1,43 @@
+title: Roberto Curti
+tagline: Data Science • Time Series • MtG Research
+description: Portfolio, notes, and occasional blog on data analysis, forecasting, and side quests.
+url: https://RobertoCurti.github.io
+# If you later use a custom domain, update url and add CNAME file.
+
+theme: jekyll-theme-cayman
+
+# Plugins supported by GitHub Pages:
+plugins:
+  - jekyll-feed       # RSS for your blog
+  - jekyll-seo-tag    # SEO/meta tags
+  - jekyll-sitemap    # sitemap.xml
+
+# Navigation (used in header)
+nav:
+  - title: Home
+    url: /
+  - title: Projects
+    url: /projects/
+  - title: Blog
+    url: /blog/
+  - title: About
+    url: /about/
+
+# Social (used by SEO tag)
+author:
+  name: Roberto Curti
+  email: robertopcurti@gmail.com
+  links:
+    - https://github.com/RobertoCurti
+    - https://www.linkedin.com/in/RobertoCurti/
+
+# Blog settings
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# Defaults so posts/pages get the right layout
+defaults:
+  - scope: { path: "" }
+    values: { layout: default }
+  - scope: { path: "", type: "posts" }
+    values: { layout: post }
